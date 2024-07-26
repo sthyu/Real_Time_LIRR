@@ -82,7 +82,7 @@ def loop_data_gathering(time_hours):
         writer.writerows(feed_to_save_1)
     return feed_to_save_1
 
-feed_save = loop_data_gathering(4)
+feed_save = loop_data_gathering(5)
 print(len(feed_save))
 print(feed_save)
 
